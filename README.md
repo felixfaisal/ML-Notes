@@ -228,6 +228,45 @@ The algorithm works as follows:
 ![image](https://user-images.githubusercontent.com/42486737/119497669-7b7b2c00-bd82-11eb-9b9d-13df653a4ed1.png)
 - In this scenario, hyper-plane “B” has excellently performed this job
 
+### Scenario 2: Identify the right hyperplane 
+- Here, we have three hyper-planes (A, B and C) and all are segregating the classes well. Now, How can we identify the right hyper-plane?
+- Here, maximizing the distances between nearest data point (either class) and hyper-plane will help us to decide the right hyper-plane. This distance is called as Margin.
+
+![image](https://user-images.githubusercontent.com/42486737/119498107-e62c6780-bd82-11eb-87b9-14b07e91b89b.png)
+
+- We can see that the margin for hyper-plane C is high as compared to both A and B. Hence, we name the right hyper-plane as C.
+
+### Scenario 3: Identify the right hyperplane 
+
+![image](https://user-images.githubusercontent.com/42486737/119498343-25f34f00-bd83-11eb-81a4-86624ffee48e.png)
+
+- Here hyper-plane B as it has higher margin compared to A.
+- SVM selects the hyper-plane which classifies the classes accurately prior to maximizing margin.
+- Hyper-plane B has a classification error and A has classified all correctly. Therefore, the right hyper-plane is A.
+
+### Scenario 4: Identify the right hyperplane 
+
+![image](https://user-images.githubusercontent.com/42486737/119498529-576c1a80-bd83-11eb-92ab-cc6c1c2452ec.png)
+
+- Here, we are unable to segregate the two classes using a straight line, as one of star lies in the territory of other(circle) class as an outlier.
+- SVM has a feature to ignore outliers and find the hyper-plane that has maximum margin. SVM is robust to outliers.
+
+## Strenghts of SVM 
+- SVM can be used for both classification & regression.
+- It is robust, i.e. not much impacted by data with noise or outliers.
+- The prediction results using this model are very strong.
+
+## Weakness of SVM 
+- SVM is applicable only for binary classification, i.e. when there are only two classes in the problem.
+- While dealing with high dimensional data, it becomes very complex.
+- It is slow for large dataset, i.e. a data set with more features or instances.
+- It is memory-intensive(throughput is bounded by the device memory bandwidth).
+
+
+
+
+
+
 
 
 
