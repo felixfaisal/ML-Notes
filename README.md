@@ -139,18 +139,19 @@ for example, data does not have to be separable with a linear  boundary
 ![CompTree](https://i.imgur.com/K5ZkTXl.png)
 
 ## Example: Is a Person Fit? 
-![FitTree](home/felix/Desktop/fittree.png)
+![image](https://user-images.githubusercontent.com/42486737/119488205-e7a46280-bd77-11eb-9e88-3abe740781ea.png)
 
 ## Example Should loan be sactioned 
-![FitTree](home/felix/Desktop/fittree.png)
+![image](https://user-images.githubusercontent.com/42486737/119488250-f559e800-bd77-11eb-983d-91fa500d64a8.png)
 
 ## Training Data for GTS Recruitment 
-![FitTree](home/felix/Desktop/fittree.png)
+![image](https://user-images.githubusercontent.com/42486737/119488323-06a2f480-bd78-11eb-9ff0-30923ad15832.png)
+
 
 ## Entropy of a decision tree 
 - Entropy, as it relates to machine learning, is a measure of the randomness in the information being processed. 
 - The higher the entropy, the harder it is to draw any conclusions from that information.
-
+![image](https://user-images.githubusercontent.com/42486737/119488388-1c181e80-bd78-11eb-8142-40957844c2f7.png)
 
 - Ex: For class ‘Job Offered?’ we have two values: Yes and No.
 - Pi values for Yes= 8/18 = 0.44 & No= 10/18= 0.56
