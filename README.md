@@ -168,3 +168,26 @@ Entropy(S)     = -0.44 log2(0.44) – 0.56 log2(0.56)
 - Information gain(S, A) = Entropy(Sbs) – Entropy(Sas)
 - For weighted summation, the proportion of examples falling into each partition is used as weight.
 - Entropy(Sas) = ∑ (i=1 to n) wi Entropy(pi)
+
+![image](https://user-images.githubusercontent.com/42486737/119488585-5bdf0600-bd78-11eb-90ef-feadc121beeb.png)
+
+c) Splitted data set(based on ‘Communication’)
+Communication = ‘Good’    Communication = ‘Bad’
+Total Entropy = 0.63                  Information Gain = 0.36
+
+d) Splitted data set(based on ‘Aptitude’)
+Aptitude = ‘High’         Aptitude = ‘Low’
+Total Entropy = 0.52                  Information Gain = 0.47(Entropy=0)
+
+e) Splitted data set(based on ‘Programming Skills’)
+Programming Skills = ‘Good’     Programming Skills = ‘Bad’
+Total Entropy = 0.95                  Information Gain = 0.04
+
+## Avoid Overfitting in Decision Tree Pruning 
+- The decision tree algorithm, unless a stopping criterion is applied, may keep growing indefinitely.
+- To prevent a decision tree getting overfitted to the training data, pruning of the decision tree is essential.
+- Pruning a decision tree reduces the size of the tree such that the model is more generalized and can classify unknown and unlabeled data in a better way.
+- Pre-pruning: Stop growing the tree before it reaches perfection.
+- Post-pruning: Allow the tree to grow entirely and then post-prune some of the branches from it.
+
+
